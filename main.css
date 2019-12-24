@@ -1,1 +1,58 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+}
+
+header .navbar {
+  height: 10vh;
+  position: relative;
+  color: #000;
+}
+
+header .navbar a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .navbar .logo {
+  top: 40%;
+  left: 5%;
+  position: absolute;
+}
+
+header .navbar .mid {
+  top: 40%;
+  left: 45%;
+  position: absolute;
+}
+
+header .navbar .mid a {
+  margin-left: 10px;
+}
+
+header .navbar .icon {
+  top: 40%;
+  left: 70%;
+  position: absolute;
+}
+
+header .navbar .left {
+  top: 40%;
+  left: 79%;
+  width: 100px;
+  position: absolute;
+}
+
+header .navbar .right {
+  top: 40%;
+  left: 88%;
+  width: 100px;
+  position: absolute;
+}
+/*# sourceMappingURL=main.css.map */
