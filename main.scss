@@ -82,6 +82,27 @@ header {
         -moz-border-radius-bottomright: 500px;
         border-top-right-radius: 500px;
         border-bottom-right-radius: 500px;
+        img {
+            position: absolute;
+            height: 450px;
+            width: 500px;
+            left: 30%;
+            top: -30%;
+            transform: rotate(25deg);
+        }
+        .price-block {
+            position: absolute;
+            top: 63%;
+            left: 23%;
+            height: 80px;
+            width: 250px;
+            text-align: center;
+            color: #fff;
+            h1 {
+                font-size: 1.5rem;
+                padding-bottom: 15px;
+            }
+        }
     }
     .right-block {
         width: 40%;
@@ -117,7 +138,6 @@ header {
                 font-size: 1.5rem;
                 padding-bottom: 15px;
             }
-
         }
     }
 }
