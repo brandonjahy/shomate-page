@@ -68,6 +68,16 @@ header {
     height: 100vh;
     width: 100%;
     position: relative;
+    .nike {
+        height: 300px;
+        width: 500px;
+        left: -2%;
+        top: -100px;
+        background:
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)),
+        url('nikeswoosh.png') center/ cover no-repeat;
+        position: absolute;
+    }
     .left-block {
         width: 40%;
         height: 40%;
@@ -137,6 +147,52 @@ header {
             h1 {
                 font-size: 1.5rem;
                 padding-bottom: 15px;
+            }
+        }
+    }
+    .mid-text-block {
+        position: absolute;
+        top: 20%;
+        left: 36%;
+        height: 500px;
+        width: 450px;
+        padding: 10px;
+        h1 {
+            font-size: 6rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            padding-top: 30px;
+            padding-bottom: 15px;
+        }
+        h3 {
+            font-size: 2rem;
+            font-weight: 300;
+            padding-bottom: 20px;
+            color: #a9b0ab;
+        }
+        p {
+            font-size: 1.3rem;
+            font-weight: 300;
+            padding-bottom: 60px;
+        }
+        button {
+            height: 50px;
+            width: 170px;
+            background-color: #000;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+    }
+    .lower-text-block {
+        position: absolute;
+        top: 80%;
+        left: 36%;
+        .text-block {
+            a {
+                color: #a9b0ab;
+                text-decoration: none;
+                font-size: 1.2rem;
+                margin: 10px;
             }
         }
     }
