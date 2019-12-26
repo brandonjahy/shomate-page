@@ -79,4 +79,67 @@ header .navbar .right:hover {
           transform: scale(1.3);
   text-shadow: 0px 2px 5px #000;
 }
+
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.container .left-block {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  top: 50%;
+  left: -130px;
+  position: absolute;
+  background: #42ffa1;
+  -webkit-border-top-right-radius: 500px;
+  -webkit-border-bottom-right-radius: 500px;
+  -moz-border-radius-topright: 500px;
+  -moz-border-radius-bottomright: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+}
+
+.container .right-block {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  top: 20%;
+  left: 69%;
+  position: absolute;
+  background: #ffb5fa;
+  -webkit-border-top-left-radius: 500px;
+  -webkit-border-bottom-left-radius: 500px;
+  -moz-border-radius-topleft: 500px;
+  -moz-border-radius-bottomleft: 500px;
+  border-top-left-radius: 500px;
+  border-bottom-left-radius: 500px;
+}
+
+.container .right-block img {
+  position: absolute;
+  height: 520px;
+  width: 520px;
+  top: -60%;
+  left: -25%;
+  -webkit-transform: rotate(325deg);
+          transform: rotate(325deg);
+}
+
+.container .right-block .price-block {
+  position: absolute;
+  top: 59%;
+  left: 30%;
+  height: 80px;
+  width: 250px;
+  text-align: center;
+  color: #fff;
+}
+
+.container .right-block .price-block h1 {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
 /*# sourceMappingURL=main.css.map */
