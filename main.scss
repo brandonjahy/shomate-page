@@ -20,6 +20,7 @@ header {
             top: 40%;
             left: 5%;
             position: absolute;
+            z-index: 1;
         }
         .mid{
             top: 40%;
@@ -193,6 +194,46 @@ header {
                 text-decoration: none;
                 font-size: 1.2rem;
                 margin: 10px;
+            }
+        }
+    }
+    .icon-block {
+        position: absolute;
+        top: 80%;
+        left: 86%;
+        width: 100px;
+        .right-icon {
+            position: absolute;
+            left: 60%;
+            top: -1px;
+            height: 30px;
+            width: 30px;
+            background-color: #333;
+            border-radius: 50%;
+            .fas {
+                color: #fff;
+                position: absolute;
+                left: 43%;
+                top: 18%;
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
+        .left-icon {
+            position: absolute;
+            left: 20%;
+            top: -1px;
+            height: 30px;
+            width: 30px;
+            background-color: #333;
+            border-radius: 50%;
+            .fas {
+                color: #fff;
+                position: absolute;
+                left: 33%;
+                top: 18%;
+                font-size: 1.2rem;
+                text-align: center;
             }
         }
     }

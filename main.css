@@ -24,6 +24,7 @@ header .navbar .logo {
   top: 40%;
   left: 5%;
   position: absolute;
+  z-index: 1;
 }
 
 header .navbar .mid {
@@ -227,5 +228,50 @@ header .navbar .right:hover {
   text-decoration: none;
   font-size: 1.2rem;
   margin: 10px;
+}
+
+.container .icon-block {
+  position: absolute;
+  top: 80%;
+  left: 86%;
+  width: 100px;
+}
+
+.container .icon-block .right-icon {
+  position: absolute;
+  left: 60%;
+  top: -1px;
+  height: 30px;
+  width: 30px;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+.container .icon-block .right-icon .fas {
+  color: #fff;
+  position: absolute;
+  left: 43%;
+  top: 18%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.container .icon-block .left-icon {
+  position: absolute;
+  left: 20%;
+  top: -1px;
+  height: 30px;
+  width: 30px;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+.container .icon-block .left-icon .fas {
+  color: #fff;
+  position: absolute;
+  left: 33%;
+  top: 18%;
+  font-size: 1.2rem;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
