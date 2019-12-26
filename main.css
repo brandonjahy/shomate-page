@@ -97,6 +97,16 @@ header .navbar .right:hover {
   position: absolute;
 }
 
+.container .nikeword {
+  height: 300px;
+  width: 500px;
+  left: 67%;
+  top: 70%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.9))), url("nikeword.png") center/cover no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("nikeword.png") center/cover no-repeat;
+  position: absolute;
+}
+
 .container .left-block {
   width: 40%;
   height: 40%;
@@ -232,7 +242,7 @@ header .navbar .right:hover {
 
 .container .icon-block {
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 86%;
   width: 100px;
 }
@@ -258,7 +268,7 @@ header .navbar .right:hover {
 
 .container .icon-block .left-icon {
   position: absolute;
-  left: 20%;
+  left: 10%;
   top: -1px;
   height: 30px;
   width: 30px;
